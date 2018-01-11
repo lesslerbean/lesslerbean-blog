@@ -1,0 +1,27 @@
+/*Writings CSS*/
+body{
+  color: #b2ffb2;
+  background-color: #190729;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 125%;
+}
+
+nav{
+  border-style: double;
+  border-width: thin;
+  border-color: #ffffff;
+}
+
+a:link{
+  color:#b2ffb2;
+}
+
+a:visited{
+  color: #ffffff;
+}
+
+h1{
+  text-decoration: underline;
+  text-align: center;
+  text-transform: uppercase;
+}

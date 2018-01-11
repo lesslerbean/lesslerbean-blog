@@ -1,0 +1,55 @@
+<!--Fill in the missing JS to create a working web calculator.-->
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Exercise 6</title>
+</head>
+<body>
+  <h1>Simple Web Calculator</h1>
+  <form>
+    First number: <input type="number">
+    <br>
+    Second number: <input type="number">
+  </form>
+  <button onclick="#">Add</button>
+  <button onclick="#">Subtract</button>
+  <button onclick="#">Multiply</button>
+  <button onclick="#">Divide</button>
+  <p id="sol"></p>
+  <script type="text/javascript">
+    var sol = document.getElementById('#');
+    function add(){
+      var num = document.getElementsByTagName("INPUT");
+      var x = num[0].value;
+      var y = num[1].value;
+      var z = x+y;
+      sol.innerHTML=z;
+      document.getElementById("hide").style.display="none";
+    }
+    function sub(){
+      var num = document.getElementsByTagName("INPUT");
+      var x = num[0].value;
+      var y = num[1].value;
+      var z = x-y;
+      sol.innerHTML=z;
+      document.getElementById("hide").style.display="none";
+    }
+    function mul(){
+      var num = document.getElementsByTagName("INPUT");
+      var x = num[0].value;
+      var y = num[1].value;
+      var z = x*y;
+      sol.innerHTML=z;
+      document.getElementById("hide").style.display="none";
+    }
+    function div(){
+    var num = document.getElementsByTagName("INPUT");
+    var x = num[0].value;
+    var y = num[1].value;
+    var z = x/y;
+    sol.innerHTML=z;
+    document.getElementById("hide").style.display="none";
+  }
+  </script>
+</body>
+</html>
